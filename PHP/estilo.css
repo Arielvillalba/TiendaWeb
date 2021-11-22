@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding:0;
+
+}
+
+body {
+	text-align: center;
+	background-color: #150f6e;
+	font-family: monospace;
+	letter-spacing: 4px;
+}
+
+.titulo{
+	display: flex;
+	font-size: 30px; 
+	color: white;
+}
+.titulo div{
+	align-items: center;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: auto;
+}
+
+img{
+	height:80px;
+	width:140px;
+}
+
+h1{
+
+}
+
+.productos{
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+
+table {
+	margin-right: auto;
+	margin-left: auto; 
+	background-color: white;
+}
+
+th,td {
+	border: 1px solid black;
+	padding: 8px;
+
+}
+thead{
+	background-color: #104faf;
+	color:white;
+}
+
+tr:hover td{
+	background:black;
+	color:white;
+}
+
+.formulario{
+	margin-right: auto;
+	margin-left: auto; 
+	width: 100%;
+	background: black;
+	height: 90px;
+	margin-bottom: auto;
+	margin-top: auto; 
+}
+
+p{
+	color: white;
+	padding: 3px;
+}
